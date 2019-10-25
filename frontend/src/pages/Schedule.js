@@ -23,7 +23,9 @@ const Event = (props) => {
             <b>{g.teams.away.team.name}</b> vs. <b>{g.teams.home.team.name}</b> at <b>{g.venue.name}</b>
           </Typography>
         })}
-
+        <Typography variant="body2" color="textPrimary" component="p">
+          API Quicklink: <a target="_blank" href="http://localhost:3001/api/schedules">Click here</a>
+        </Typography>
       </CardContent>
     </Card>
   )

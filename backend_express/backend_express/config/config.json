@@ -1,0 +1,14 @@
+
+{
+  "development": {
+    "username": "916227211",
+    "password": "bacondreams",
+    "database": "nhl-google-project",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": false
+    }
+  }
+}
+
